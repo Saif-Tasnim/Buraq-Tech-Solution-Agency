@@ -1,11 +1,22 @@
-import React from 'react';
+import React from "react";
+import {
+  AboutHeading,
+  OurMissionVission,
+  OurStat,
+  OurStory,
+  OurTeam,
+} from "./component";
 
 const AboutUsPage = () => {
-    return (
-        <div>
-           <h1>This is about page</h1> 
-        </div>
-    );
+  return (
+    <>
+      <AboutHeading />
+      <OurStory />
+      <OurMissionVission />
+      <OurStat />
+      <OurTeam />
+    </>
+  );
 };
 
 export default AboutUsPage;

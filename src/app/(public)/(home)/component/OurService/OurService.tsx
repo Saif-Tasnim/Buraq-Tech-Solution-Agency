@@ -9,6 +9,7 @@ const OurService = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+  
   return (
     <div className="my-28">
       <div className="flex justify-center items-center">
