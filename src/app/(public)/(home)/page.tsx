@@ -3,7 +3,6 @@ import {
   AboutUs,
   Banner,
   CTA,
-  Dots,
   FAQ,
   OurService,
   OurWork,
@@ -11,6 +10,7 @@ import {
   RegularContact,
   Technologies,
 } from "./component";
+import { Dots } from "@/app/component/shared";
 
 const HomePage = () => {
   return (

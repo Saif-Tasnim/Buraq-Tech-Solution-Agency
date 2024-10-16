@@ -6,5 +6,4 @@ export { default as OurService } from "./OurService/OurService";
 export { default as Technologies } from "./Technologies/Technologies";
 export { default as OurWork } from "./Our Work/OurWork";
 export { default as PeopleComment } from "./PeopleComment/PeopleComment";
-export { default as Dots } from "./Dots/Dots";
 export { default as FAQ } from "./FAQ/FAQ";
