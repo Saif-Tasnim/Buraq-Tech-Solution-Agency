@@ -5,6 +5,7 @@ export interface IService {
   href: string;
   type: string;
   image: string;
+  slug: string;
 }
 
 export interface ITech {

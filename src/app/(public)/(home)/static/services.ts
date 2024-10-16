@@ -4,6 +4,7 @@ export const SERVICES: IService[] = [
   {
     id: 1,
     title: "Custom Software Development",
+    slug: "custom-software-development",
     description:
       "Tailored software solutions to meet your unique business requirements.",
     href: "/services/custom-software-development",
@@ -13,6 +14,7 @@ export const SERVICES: IService[] = [
   {
     id: 2,
     title: "Web Development",
+    slug: "web-development",
     description:
       "High-performance websites and web applications with modern frameworks.",
     href: "/services/web-development",
@@ -22,6 +24,7 @@ export const SERVICES: IService[] = [
   {
     id: 3,
     title: "Mobile Development",
+    slug: "mobile-development",
     description:
       "Native and cross-platform mobile applications for Android and iOS.",
     href: "/services/mobile-development",
@@ -31,6 +34,7 @@ export const SERVICES: IService[] = [
   {
     id: 4,
     title: "Networking Services",
+    slug: "networking-services",
     description:
       "Reliable and secure networking solutions for businesses of all sizes.",
     href: "/services/networking-services",
@@ -40,6 +44,7 @@ export const SERVICES: IService[] = [
   {
     id: 5,
     title: "UI/UX Design",
+    slug: "ui-ux-design",
     description:
       "User-centric design that enhances the user experience and drives engagement.",
     href: "/services/ui-ux-design",
@@ -49,6 +54,7 @@ export const SERVICES: IService[] = [
   {
     id: 6,
     title: "AI Software",
+    slug: "ai-software",
     description:
       "Advanced AI software solutions to automate processes and drive innovation.",
     href: "/services/ai-software",
