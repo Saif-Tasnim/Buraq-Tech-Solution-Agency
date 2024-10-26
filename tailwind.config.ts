@@ -15,9 +15,9 @@ const config: Config = {
         },
       },
       colors: {
-        "header-bg": "#7e22ce",
+        "header-bg": "#405d4c",
         heading1: "",
-        primary: "rgb(8 145 178)",
+        primary: "#c27729",
         secondary: "",
         danger: "",
       },

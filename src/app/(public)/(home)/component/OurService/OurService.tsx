@@ -17,10 +17,7 @@ const OurService = () => {
       </div>
 
       <div
-        className="my-12 bg-no-repeat"
-        style={{
-          backgroundImage: `url("https://nexlent.com/images/hero-bg.svg")`,
-        }}
+        className="my-12"
         data-aos="fade-right"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1800"

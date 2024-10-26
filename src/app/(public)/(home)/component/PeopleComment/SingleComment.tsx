@@ -17,8 +17,8 @@ const SingleComment: FC<ISingleCommentProps> = ({
   designation,
 }) => {
   return (
-    <div className="relative border bg-cyan-600 rounded-lg p-3">
-      <Rating style={{ maxWidth: 100 }} value={5} readOnly />
+    <div className="relative border bg-header-bg rounded-lg p-3 text-gray-100">
+      <Rating style={{ maxWidth: 100 }} value={5} readOnly className="text-primary"/>
 
       <div className="py-12 px-6">
         <p className="ml-32">
@@ -36,7 +36,7 @@ const SingleComment: FC<ISingleCommentProps> = ({
           className="w-10 h-10 rounded-full"
         />
         <div>
-          <h1 className="font-medium mb-1 text-gray-100">{name}</h1>
+          <h1 className="font-medium mb-1 text-yellow-500">{name}</h1>
           <p className="ml-3 text-xs"> ______ {designation}</p>
         </div>
       </div>

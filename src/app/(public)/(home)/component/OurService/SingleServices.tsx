@@ -18,7 +18,7 @@ const SingleServices: React.FC<ISingleServiceProps> = ({
   return (
     <Link
       href={href}
-      className="border bg-purple-100 p-7 rounded-xl relative hover:bg-primary transition-all duration-500 hover:scale-105">
+      className="border bg-gray-50 p-7 rounded-xl relative hover:bg-primary transition-all duration-500 hover:scale-105">
       <div className="w-full h-1/2 mx-auto">
         <Image
           src={image}

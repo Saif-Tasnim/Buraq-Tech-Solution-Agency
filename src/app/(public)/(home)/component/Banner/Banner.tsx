@@ -12,7 +12,10 @@ const Banner = () => {
     >
       <div className="w-full flex justify-between mt-6 px-9">
         <div className="py-32 px-9">
-          <h1 className="text-5xl font-semibold pl-2">Novanex IT Solution</h1>
+          <h1 className="text-5xl font-semibold pl-2">
+            <span className="text-[#5e8d71]">Buraq</span>
+            Tech Solution
+          </h1>
           <p className="text-2xl my-16 italic pl-3">
             From concept to launch, we craft digital experiences that captivate
             and convert.
