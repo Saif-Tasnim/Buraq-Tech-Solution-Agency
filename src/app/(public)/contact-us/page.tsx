@@ -3,7 +3,7 @@ import { ContactForm, Map } from "./component";
 
 const ContactPage = () => {
   return (
-    <div className="flex justify-around items-center my-16">
+    <div className="flex flex-col gap-20 lg:flex-row lg:justify-around items-center my-16">
       <div>
         <h1 className="text-center mb-7 text-primary font-semibold text-xl">
           Our Locations{" "}

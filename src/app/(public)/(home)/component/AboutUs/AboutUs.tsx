@@ -14,7 +14,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="flex justify-around items-center my-20 mx-2 overflow-hidden">
+    <div className="flex flex-col md:flex-row md:justify-around items-center my-20 mx-2 overflow-hidden">
       <div
         className="w-full"
         data-aos="fade-right"
@@ -38,10 +38,10 @@ const AboutUs = () => {
         </div>
       </div>
       <div
-        className="w-1/2 mx-9"
+        className="w-1/2 mx-9 my-7"
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
+        data-aos-duration="800"
       >
         <SectionName first="About" second="Us" />
       </div>

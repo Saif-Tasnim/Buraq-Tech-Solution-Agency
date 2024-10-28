@@ -22,7 +22,7 @@ const OurService = () => {
         data-aos-easing="ease-in-sine"
         data-aos-duration="1800"
       >
-        <p className="mb-6 text-center mx-28">
+        <p className="mb-6 text-justify md:text-center mx-2 md:mx-28">
           Our team is passionately committed to delivering an exceptional blend
           of modern, sophisticated design and robust, high-speed backend
           infrastructure. We believe in creating solutions that not only look
@@ -34,7 +34,7 @@ const OurService = () => {
           digital landscape.{" "}
         </p>
 
-        <div className="my-10 mx-6 lg:grid grid-cols-3 gap-6">
+        <div className="my-10 mx-6 grid grid-cols-1 md:grid-cols-2 gap-12 lg:grid-cols-3 md:gap-6">
           {(SERVICES ?? [])?.map((service) => (
             <SingleServices
               key={service.id}

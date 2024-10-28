@@ -16,7 +16,7 @@ const RegularContact = () => {
             {" "}
             <Icon.PhoneCall className="w-9" />{" "}
           </MarqueeContent>
-          <MarqueeContent title="Our Email" value="novanex-it@gmail.com">
+          <MarqueeContent title="Our Email" value="buraq-tech@gmail.com">
             {" "}
             <Icon.Mail className="w-9" />{" "}
           </MarqueeContent>

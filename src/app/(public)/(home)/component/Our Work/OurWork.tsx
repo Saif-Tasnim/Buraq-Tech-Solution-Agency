@@ -13,7 +13,7 @@ const OurWork = () => {
       </div>
 
       <div className="my-28 flex justify-between items-center">
-        <div className="w-1/2">
+        <div className="w-1/2 hidden lg:block">
           <Image
             src={img.src}
             alt="image"
@@ -22,8 +22,9 @@ const OurWork = () => {
             className="rounded-lg block mx-20"
           />
         </div>
-        <div className="h-[350px] border-l-2 border-purple-300 px-9"></div>
-        <div className="w-1/2 lg:grid grid-cols-2 gap-8">
+        <div className="h-[350px] border-l-2 border-purple-300 px-9 hidden lg:block"></div>
+        
+        <div className="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SDLC
             title="Planning"
             description="Brainstorming and defining the project’s goals and direction"

@@ -9,10 +9,10 @@ interface IMarqueeContent {
 const MarqueeContent: FC<IMarqueeContent> = ({ title, value, children }) => {
   return (
     <div className="flex items-center gap-2 mx-8">
-      <h1 className="text-xl font-medium">{title} : </h1>
+      <h1 className="text-sm md:text-xl font-medium">{title} : </h1>
       <p className="flex items-center">
         {children}
-        <span className="text-red-600 font-semibold text-lg">{value}</span>
+        <span className="text-red-600 font-semibold text-sm md:text-lg">{value}</span>
       </p>
     </div>
   );

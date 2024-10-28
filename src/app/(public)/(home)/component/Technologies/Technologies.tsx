@@ -1,5 +1,4 @@
 import { SectionName } from "@/app/component/shared";
-import Image from "next/image";
 import React from "react";
 import Tech from "./Tech";
 import { TECH } from "../../static/tech";
@@ -11,7 +10,7 @@ const Technologies = () => {
         <SectionName first="Technology" second="Stack" />
       </div>
 
-      <div className="my-16 lg:grid grid-cols-8 gap-9 mx-8">
+      <div className="my-16 grid grid-cols-4 lg:grid-cols-8 gap-9 md:mx-8">
         {TECH.map((tec) => (
           <Tech key={tec.id} src={tec.src} name={tec.name} />
         ))}

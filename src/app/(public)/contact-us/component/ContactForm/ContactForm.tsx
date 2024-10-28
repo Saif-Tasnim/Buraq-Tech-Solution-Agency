@@ -12,7 +12,7 @@ const ContactForm = () => {
         <textarea
           name="comments"
           id=""
-          className="w-96 h-32 rounded-md px-7 py-2 resize-none block mb-6 outline-primary bg-gray-100 border-gray-800 border"
+          className="w-72 md:w-96 h-32 rounded-md px-7 py-2 resize-none block mb-6 outline-primary bg-gray-100 border-gray-800 border"
           placeholder="Your Message Here ...."
         ></textarea>
 

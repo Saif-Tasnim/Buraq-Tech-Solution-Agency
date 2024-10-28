@@ -18,25 +18,25 @@ const SingleServices: React.FC<ISingleServiceProps> = ({
   return (
     <Link
       href={href}
-      className="border bg-gray-50 p-7 rounded-xl relative hover:bg-primary transition-all duration-500 hover:scale-105">
+      className="border bg-gray-50 pb-14 md:p-7 rounded-xl relative hover:bg-primary transition-all duration-500 hover:scale-105">
       <div className="w-full h-1/2 mx-auto">
         <Image
           src={image}
           alt={title}
           width={900}
           height={900}
-          className="h-full w-auto rounded-xl"
+          className="md:h-full md:w-auto rounded-xl"
         />
       </div>
 
       <div className="my-7">
-        <h1 className="text-center text-2xl font-semibold whitespace-nowrap">
+        <h1 className="text-center text-lg lg:text-2xl font-semibold whitespace-nowrap">
           {title}
         </h1>
-        <p className="my-5 text-justify">{description}</p>
+        <p className="my-5 text-justify lg:text-base text-sm">{description}</p>
       </div>
-      <div className="absolute bottom-3 ml-16">
-        <Button href={href} variant="primary">
+      <div className="absolute bottom-1 md:bottom-3 ml-9 md:ml-16">
+        <Button href={href} variant="primary" className="text-sm md:text-base">
           Learn More
         </Button>
       </div>

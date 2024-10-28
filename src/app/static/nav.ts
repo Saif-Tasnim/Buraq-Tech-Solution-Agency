@@ -1,4 +1,4 @@
-interface INAV {
+export interface INAV {
   id: number;
   href: string;
   name: string;

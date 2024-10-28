@@ -8,7 +8,7 @@ import React, { FC, ReactNode } from "react";
 
 const SDLC: FC<ISDLCProps> = ({ title, children, description,id }) => {
   return (
-    <div className="flex items-center gap-4 relative bg-cyan-50 rounded-md w-fit p-3 mr-3">
+    <div className="flex items-center gap-4 relative bg-cyan-50 rounded-md md:w-fit p-3 mr-3 ml-3 md:ml-0">
       <div>{children}</div>
       <div className="flex flex-col gap-1">
         <h1 className="text-lg font-medium">{title}</h1>

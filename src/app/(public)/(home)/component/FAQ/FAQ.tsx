@@ -14,7 +14,7 @@ const FAQ = () => {
       <div className="my-28 flex justify-center items-center">
         <SectionName first="Asked" second="Questions" />
       </div>
-      <div className="mx-12 p-6 overflow-x-hidden">
+      <div className="md:mx-12 p-6 overflow-x-hidden">
         {/* Accordion Item 1 */}
         <div className="border-b border-b-cyan-600">
           <button
@@ -22,7 +22,7 @@ const FAQ = () => {
             onClick={() => toggleAccordion(1)}
           >
             <span className="text-lg font-semibold">
-              What services does Novanex It offer?
+              What services does Buraq Tech offer?
             </span>
             <svg
               className={`h-5 w-5 transition-transform duration-500 ease-in-out ${
@@ -45,7 +45,7 @@ const FAQ = () => {
             }`}
           >
             <p className="p-4">
-              Novanex It offers custom software development, web and mobile app
+              Buraq Tech offers custom software development, web and mobile app
               development, UI/UX design, and IT consulting, along with ongoing
               support and maintenance.
             </p>
@@ -59,7 +59,7 @@ const FAQ = () => {
             onClick={() => toggleAccordion(2)}
           >
             <span className="text-lg font-semibold">
-              How does Novanex It manage projects and timelines?
+              How does Buraq Tech manage projects and timelines?
             </span>
             <svg
               className={`h-5 w-5 transition-transform duration-500 ease-in-out ${
@@ -82,7 +82,7 @@ const FAQ = () => {
             }`}
           >
             <p className="p-4">
-              Novanex It uses agile development with regular updates and sprints
+              Buraq Tech uses agile development with regular updates and sprints
               to stay on schedule while maintaining flexibility.
             </p>
           </div>
@@ -95,7 +95,7 @@ const FAQ = () => {
             onClick={() => toggleAccordion(3)}
           >
             <span className="text-lg font-semibold">
-              What industries does Novanex It serve?
+              What industries does Buraq Tech serve?
             </span>
             <svg
               className={`h-5 w-5 transition-transform duration-500 ease-in-out ${
@@ -132,7 +132,7 @@ const FAQ = () => {
             onClick={() => toggleAccordion(4)}
           >
             <span className="text-lg font-semibold">
-              How does Novanex It ensure quality in software solutions?
+              How does Buraq Tech ensure quality in software solutions?
             </span>
             <svg
               className={`h-5 w-5 transition-transform duration-500 ease-in-out ${
@@ -169,7 +169,7 @@ const FAQ = () => {
             onClick={() => toggleAccordion(5)}
           >
             <span className="text-lg font-semibold">
-              Can Novanex It work with legacy software?
+              Can Buraq Tech work with legacy software?
             </span>
             <svg
               className={`h-5 w-5 transition-transform duration-500 ease-in-out ${
@@ -192,7 +192,7 @@ const FAQ = () => {
             }`}
           >
             <p className="p-4">
-              Yes, Novanex It has experience in modernizing and enhancing legacy
+              Yes, Buraq Tech has experience in modernizing and enhancing legacy
               software, including system integration and technology upgrades.
             </p>
           </div>
