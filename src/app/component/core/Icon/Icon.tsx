@@ -12,6 +12,7 @@ import {
   ListChecks,
   Quote,
   ArrowDown,
+  SquareArrowOutUpRight 
 } from "lucide-react";
 const Icon = {
   MoveRight,
@@ -26,7 +27,8 @@ const Icon = {
   Shell,
   ListChecks,
   Quote,
-  ArrowDown
+  ArrowDown,
+  SquareArrowOutUpRight 
 };
 
 export default Icon;

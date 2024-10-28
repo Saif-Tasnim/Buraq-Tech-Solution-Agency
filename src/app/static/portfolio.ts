@@ -13,7 +13,7 @@ export interface IPortfolioList {
 
 export const PORTFOLIOLIST: IPortfolioList[] = [
   {
-    id: 1,
+    id: 0,
     name: "Moody Restaurant Wesbite",
     thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
     link: "https://bistro-boss-6004a.web.app/",
@@ -73,7 +73,7 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     name: "Moody Restaurant Wesbite",
     thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
     link: "https://bistro-boss-6004a.web.app/",
@@ -103,7 +103,7 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     name: "Moody Restaurant Wesbite",
     thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
     link: "https://bistro-boss-6004a.web.app/",
@@ -133,7 +133,7 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     name: "Moody Restaurant Wesbite",
     thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
     link: "https://bistro-boss-6004a.web.app/",
