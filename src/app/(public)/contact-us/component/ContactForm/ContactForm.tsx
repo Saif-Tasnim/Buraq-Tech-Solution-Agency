@@ -4,7 +4,7 @@ import { Button } from "@/app/component/core/Button";
 
 const ContactForm = () => {
   return (
-    <div>
+    <>
       <div>
         <InputField type="text" name="user-name" placeholder="Your Name" />
         <InputField type="email" name="user-email" placeholder="Your Email" />
@@ -21,7 +21,7 @@ const ContactForm = () => {
           Send Message{" "}
         </Button>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -44,11 +44,11 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
   },
   {
     id: 1,
-    name: "Moody Restaurant Wesbite",
-    thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
+    name: "Doctor Portal Wesbite",
+    thumbnail: "https://i.postimg.cc/RVv7xtrD/portfolio-mockup.jpg",
     description:
-      "Moody Restaurant --- A modern, responsive restaurant website designed to showcase menus, chef specials, and customer reviews. Featuring a clean layout, vibrant food imagery, and an easy-to-navigate interface, Moody Restaurant provides a seamless browsing experience that highlights the ambiance and culinary offerings. Integrated with reservation and contact forms, it ensures a user-friendly journey from exploration to booking.",
-      link: "https://bistro-boss-6004a.web.app/",
+      "Doctor Portal Website --- A modern, responsive doctor finding website designed to showcase doctor details, specials, and customer reviews. Featuring a clean layout, vibrant food imagery, and an easy-to-navigate interface, Moody Restaurant provides a seamless browsing experience that highlights the ambiance and culinary offerings. Integrated with reservation and contact forms, it ensures a user-friendly journey from exploration to booking.",
+      link: "https://find-doctor-97a43.firebaseapp.com/",
     tech: [
       {
         id: 1,
@@ -74,9 +74,9 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
   },
   {
     id: 2,
-    name: "Moody Restaurant Wesbite",
-    thumbnail: "https://i.postimg.cc/3Jhxmz0T/restaurant.jpg",
-    link: "https://bistro-boss-6004a.web.app/",
+    name: "Green Vegetables Wesbite",
+    thumbnail: "https://i.postimg.cc/PxkLzGTR/898.jpg",
+    link: "",
     description:
       "Moody Restaurant --- A modern, responsive restaurant website designed to showcase menus, chef specials, and customer reviews. Featuring a clean layout, vibrant food imagery, and an easy-to-navigate interface, Moody Restaurant provides a seamless browsing experience that highlights the ambiance and culinary offerings. Integrated with reservation and contact forms, it ensures a user-friendly journey from exploration to booking.",
     tech: [

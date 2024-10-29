@@ -21,7 +21,7 @@ const FAQ = () => {
             className="w-full py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-300 ease-in-out"
             onClick={() => toggleAccordion(1)}
           >
-            <span className="text-lg font-semibold">
+            <span className="text-sm md:text-lg font-semibold">
               What services does Buraq Tech offer?
             </span>
             <svg
@@ -58,7 +58,7 @@ const FAQ = () => {
             className="w-full py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-300 ease-in-out"
             onClick={() => toggleAccordion(2)}
           >
-            <span className="text-lg font-semibold">
+            <span className="text-sm md:text-lg font-semibold">
               How does Buraq Tech manage projects and timelines?
             </span>
             <svg
@@ -94,7 +94,7 @@ const FAQ = () => {
             className="w-full py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-300 ease-in-out"
             onClick={() => toggleAccordion(3)}
           >
-            <span className="text-lg font-semibold">
+            <span className="text-sm md:text-lg font-semibold">
               What industries does Buraq Tech serve?
             </span>
             <svg
@@ -131,7 +131,7 @@ const FAQ = () => {
             className="w-full py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-300 ease-in-out"
             onClick={() => toggleAccordion(4)}
           >
-            <span className="text-lg font-semibold">
+            <span className="text-sm md:text-lg font-semibold">
               How does Buraq Tech ensure quality in software solutions?
             </span>
             <svg
@@ -168,7 +168,7 @@ const FAQ = () => {
             className="w-full py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-300 ease-in-out"
             onClick={() => toggleAccordion(5)}
           >
-            <span className="text-lg font-semibold">
+            <span className="text-sm md:text-lg font-semibold">
               Can Buraq Tech work with legacy software?
             </span>
             <svg

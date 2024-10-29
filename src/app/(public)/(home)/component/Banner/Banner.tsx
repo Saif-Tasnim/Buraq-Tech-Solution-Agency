@@ -31,9 +31,9 @@ const Banner = () => {
       </div>
 
       <div className="absolute bottom-4 left-6">
-        <Button variant="primary" href="/contact-us">
+        <Button variant="primary" href="/hire-us">
           {" "}
-          Connect With Us{" "}
+          Hire Us Now{" "}
         </Button>
       </div>
     </div>
