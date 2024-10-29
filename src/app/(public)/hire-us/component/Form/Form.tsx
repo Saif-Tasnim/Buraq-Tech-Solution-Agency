@@ -5,8 +5,8 @@ import { Button } from "@/app/component/core/Button";
 import React from "react";
 
 const Form = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
   };
 
   return (
