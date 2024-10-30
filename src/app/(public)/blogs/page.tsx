@@ -9,8 +9,11 @@ interface BlogPost {
 }
 
 async function fetchBlogs(): Promise<BlogPost[]> {
-  const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000";
-  
+  const baseUrl =
+    process.env.NEXT_PUBLIC_VERCEL_URL
+      ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+      : "http://localhost:3000";
+
   const res = await fetch(`${baseUrl}/api/blogs`);
   if (!res.ok) {
     throw new Error("Failed to fetch blogs");
@@ -18,6 +21,7 @@ async function fetchBlogs(): Promise<BlogPost[]> {
   const data = await res.json();
   return data;
 }
+
 
 
 export default async function BlogsPage() {
