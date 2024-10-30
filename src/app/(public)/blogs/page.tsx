@@ -9,14 +9,36 @@ interface BlogPost {
   sectionName: string;
 }
 
-async function fetchBlogs(): Promise<BlogPost[]> {
-  const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+interface ApiResponse {
+  articles: {
+    id: string;
+    title: string;
+    url: string;
+    source: string;
+  }[];
+}
 
-  const res = await fetch(`${baseUrl}/api/blogs`);
-  if (!res.ok) {
-    throw new Error("Failed to fetch blogs");
+async function fetchBlogs(): Promise<BlogPost[]> {
+  try {
+    const res = await fetch(
+      `https://api.gdeltproject.org/api/v2/doc/doc?query=technology&mode=ArtList&format=json`
+    );
+    if (!res.ok) throw new Error("Failed to fetch blogs");
+
+    const data: ApiResponse = await res.json();
+
+    return (
+      data.articles?.map((item) => ({
+        id: item.id,
+        webTitle: item.title || "Untitled Article",
+        webUrl: item.url || "#",
+        sectionName: item.source || "Technology",
+      })) || []
+    );
+  } catch (error) {
+    console.error("Error fetching blogs:", error);
+    return [];
   }
-  return res.json();
 }
 
 export default async function BlogsPage() {
@@ -43,9 +65,7 @@ export default async function BlogsPage() {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                <h2 className="text-lg font-semibold">
-                  {blog.webTitle || "Frontend ReactJS: A guideline to be a developer"}
-                </h2>
+                <h2 className="text-lg font-semibold">{blog.webTitle}</h2>
               </Link>
               <p className="text-sm mt-3">Section: {blog.sectionName}</p>
               <p className="text-sm my-2">Writer: Celliona Dyeon</p>
