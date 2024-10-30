@@ -15,7 +15,7 @@ const PageBanner: FC<IPageBanner> = ({ description, image, title }) => {
         <p className="ml-4 text-xl lg:text-2xl">{description}</p>
       </div>
 
-      <div>
+      <div className="hidden lg:block">
         <Image src={image} alt="image" width={500} height={500} />
       </div>
     </div>
