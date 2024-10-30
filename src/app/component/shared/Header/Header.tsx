@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { NAVBAR_ITEMS } from "@/app/static/nav";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -15,19 +15,16 @@ const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollPos, setLastScrollPos] = useState(0);
   const [isOpen, setOpen] = useState(false);
-  let scrollTimeout: ReturnType<typeof setTimeout> | null = null;
+  const scrollTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      if (currentScrollPos < lastScrollPos || currentScrollPos === 0) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
+      setIsVisible(currentScrollPos < lastScrollPos || currentScrollPos === 0);
       setLastScrollPos(currentScrollPos);
-      if (scrollTimeout) clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
+
+      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
+      scrollTimeout.current = setTimeout(() => {
         setIsVisible(true);
       }, 300);
     };
@@ -36,7 +33,7 @@ const Header = () => {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      if (scrollTimeout) clearTimeout(scrollTimeout);
+      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
     };
   }, [lastScrollPos]);
 
@@ -53,11 +50,10 @@ const Header = () => {
         }`}
         onClick={() => router.push("/")}
       >
-        {" "}
         Buraq Tech Solution
       </div>
 
-      <div className="lg:flex gap-6 hidden ">
+      <div className="lg:flex gap-6 hidden">
         {NAVBAR_ITEMS.map((nav) => (
           <Link
             href={nav.href}
@@ -78,8 +74,7 @@ const Header = () => {
 
       <div className="mr-2 hidden lg:block">
         <Button variant="primary" href="/contact-us">
-          {" "}
-          Connect With Us{" "}
+          Connect With Us
         </Button>
       </div>
     </div>

@@ -3,8 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
 //   const apiKey = process.env.GUARDIAN_API_KEY;
 //   const url = `https://content.guardianapis.com/technology?show-fields=thumbnail,headline,byline,trailText&api-key=${apiKey}`;
-  const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=technology&mode=ArtList&format=json
-`;
+  const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=technology&mode=ArtList&format=json`;
 
   try {
     const response = await fetch(url);
