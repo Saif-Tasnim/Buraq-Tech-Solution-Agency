@@ -9,7 +9,7 @@ const geistSans = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Novanex IT Agency",
+  title: "Buraq Tech Agency",
   description: "A Next Level Software Development Agency",
 };
 
