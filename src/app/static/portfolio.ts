@@ -74,11 +74,11 @@ export const PORTFOLIOLIST: IPortfolioList[] = [
   },
   {
     id: 2,
-    name: "Green Vegetables Wesbite",
-    thumbnail: "https://i.postimg.cc/PxkLzGTR/898.jpg",
-    link: "",
+    name: "UIU Management Service",
+    thumbnail: "https://i.postimg.cc/cLWwpfRf/Untitled-design.png",
+    link: "https://uiu-ms.web.app/",
     description:
-      "Moody Restaurant --- A modern, responsive restaurant website designed to showcase menus, chef specials, and customer reviews. Featuring a clean layout, vibrant food imagery, and an easy-to-navigate interface, Moody Restaurant provides a seamless browsing experience that highlights the ambiance and culinary offerings. Integrated with reservation and contact forms, it ensures a user-friendly journey from exploration to booking.",
+      "UIU MS is a smart and efficient education istutution management system with unique key features as schedule booking with blogs update and share as well as student notes share option along with school bus tracking system. In This Project, React Js, Express Js, Node Js is used as techonlogy and for data storage Mongo DB has used.",
     tech: [
       {
         id: 1,

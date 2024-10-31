@@ -21,7 +21,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({ portfolio }) => {
           height={300}
           className="rounded-md transition duration-300 group-hover:blur-[2px]"
         />
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-gray-700 bg-opacity-50 rounded-md w-4/5">
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-gray-700 bg-opacity-50 rounded-md w-[84%]">
           <Icon.SquareArrowOutUpRight className="w-7 h-7 mr-2 text-white"/>
           <a
             href={portfolio.link}
