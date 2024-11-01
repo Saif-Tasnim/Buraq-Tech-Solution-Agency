@@ -16,7 +16,7 @@ const PageBanner: FC<IPageBanner> = ({ description, image, title }) => {
       </div>
 
       <div className="hidden lg:block">
-        <Image src={image} alt="image" width={500} height={500} />
+        <Image src={image} alt="image" width={650} height={600} />
       </div>
     </div>
   );
