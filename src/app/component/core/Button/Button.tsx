@@ -21,7 +21,7 @@ const Button: FC<IButtonProps> = ({ className, href, variant, children }) => {
   const router = useRouter();
   return (
     <button
-      className={`${className} ${variantStyles[variant]} p-2 md:px-2 md:py-4 rounded-xl ring-0 outline-0 hover:px-7 transition-all duration-300 flex gap-3 font-semibold hover:justify-center hover:bg-header-bg hover:text-gray-100 items-center`}
+      className={`${className} ${variantStyles[variant]} p-2 md:p-4 rounded-xl ring-0 outline-0 hover:px-7 transition-all duration-300 flex gap-3 font-semibold hover:justify-center hover:bg-header-bg hover:text-gray-100 items-center`}
       onClick={() => router.push(href)}
     >
       {children}

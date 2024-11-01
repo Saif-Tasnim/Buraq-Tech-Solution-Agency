@@ -50,7 +50,7 @@ const Header = () => {
         }`}
         onClick={() => router.push("/")}
       >
-        Buraq Tech Solution
+        Buraq Tech
       </div>
 
       <div className="lg:flex gap-6 hidden">

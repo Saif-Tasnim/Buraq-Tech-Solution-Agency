@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <>
       <div className="lg:flex bg-primary z-40 hidden">
-        <div className="w-1/2 h-24 border bg-header-bg flex justify-center items-center">
+        <div className="w-1/2 h-24 bg-emerald-900 flex justify-center items-center">
           <h1 className="font-semibold text-gray-200 text-3xl">
             Call To Action
           </h1>
