@@ -7,23 +7,21 @@ import { Icon } from "@/app/component/core/Icon";
 
 const OurWork = () => {
   return (
-    <div className="my-28">
-      <div className="flex justify-center">
-        <SectionName first="How We" second="Work" />
-      </div>
+    <div className="my-20 mx-6 overflow-hidden">
+      <SectionName first="How We" second="Work" />
 
-      <div className="my-28 flex justify-between items-center">
-        <div className="w-1/2 hidden lg:block">
+      <div className="my-28 mx-6 flex justify-between items-start">
+        <div className="hidden lg:block">
           <Image
             src={img.src}
             alt="image"
-            width={350}
+            width={400}
             height={350}
-            className="rounded-lg block mx-20"
+            className="rounded-lg block"
           />
         </div>
-        <div className="h-[350px] border-l-2 border-purple-300 px-9 hidden lg:block"></div>
-        
+        <div className="h-[400px] border-l-2 border-primary hidden lg:block"></div>
+
         <div className="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SDLC
             title="Planning"

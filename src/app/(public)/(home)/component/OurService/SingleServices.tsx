@@ -33,10 +33,10 @@ const SingleServices: React.FC<ISingleServiceProps> = ({
         <h1 className="text-center text-lg lg:text-2xl font-semibold whitespace-nowrap">
           {title}
         </h1>
-        <p className="my-5 text-justify lg:text-base text-sm">{description}</p>
+        <p className="my-5 text-justify text-sm">{description}</p>
       </div>
       <div className="absolute bottom-1 md:bottom-3 ml-9 md:ml-16">
-        <Button href={href} variant="primary" className="text-sm md:text-base">
+        <Button href={href} variant="primary" className="text-sm md:p-2.5">
           Learn More
         </Button>
       </div>

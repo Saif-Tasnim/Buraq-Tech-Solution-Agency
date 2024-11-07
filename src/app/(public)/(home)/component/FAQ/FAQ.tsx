@@ -10,11 +10,10 @@ const FAQ = () => {
   };
 
   return (
-    <>
-      <div className="my-28 flex justify-center items-center">
-        <SectionName first="Asked" second="Questions" />
-      </div>
-      <div className="md:mx-12 p-6 overflow-x-hidden">
+    <div className="my-20 mx-6 overflow-hidden">
+      <SectionName first="Asked" second="Questions" />
+
+      <div className="p-6 overflow-x-hidden my-10">
         {/* Accordion Item 1 */}
         <div className="border-b border-b-cyan-600">
           <button
@@ -198,7 +197,7 @@ const FAQ = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

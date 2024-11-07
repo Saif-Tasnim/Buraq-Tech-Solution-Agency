@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       container: {
         center: true,
-        screens: {
-          "2xl": "1440px",
-        },
+        padding: {
+            DEFAULT: "4px",
+        }
       },
       colors: {
         "header-bg": "#405d4c",
@@ -23,6 +23,6 @@ const config: Config = {
       },
     },
   },
-	plugins: [],
+  plugins: [],
 };
 export default config;

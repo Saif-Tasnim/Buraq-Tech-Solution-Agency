@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <div
-      className={`h-20 sticky top-0 flex justify-between items-center z-[99999999] transition-all duration-300 ${
+      className={`h-20 sticky top-0 flex justify-between px-5 items-center z-[99999999] transition-all duration-300 ${
         isVisible ? "opacity-100" : "opacity-0"
       } bg-header-bg text-gray-300`}
       style={{ transition: "opacity 0.5s ease-in-out" }}
@@ -73,7 +73,7 @@ const Header = () => {
       {isOpen && <MobileNav />}
 
       <div className="mr-2 hidden lg:block">
-        <Button variant="primary" href="/contact-us">
+        <Button variant="primary" href="/contact-us" className="md:p-3">
           Connect With Us
         </Button>
       </div>

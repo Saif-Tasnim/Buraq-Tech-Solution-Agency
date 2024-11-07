@@ -10,13 +10,11 @@ const PeopleComment = () => {
   }, []);
 
   return (
-    <div className="my-32">
-      <div className="flex justify-center">
-        <SectionName first="People's" second="Comments" />
-      </div>
+    <div className="my-20 mx-6 overflow-hidden">
+      <SectionName first="People's" second="Comments" />
 
       <div
-        className="grid grid-cols-1 lg:grid-cols-3 lg:gap-5 my-28 md:mx-10 gap-6"
+        className="grid grid-cols-1 lg:grid-cols-3 lg:gap-5 my-28 md:mx-4 gap-6"
         data-aos="fade-right"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1500"
