@@ -17,9 +17,9 @@ const AboutUs = () => {
     <div className="my-20 mx-6 overflow-hidden">
       <SectionName first="About" second="Us" />
 
-      <div className="flex flex-col md:flex-row md:justify-between my-12">
+      <div className="w-full flex md:flex-row md:justify-between my-12">
         <div
-          className="w-1/2"
+          className="w-full lg:w-1/2"
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
           data-aos-duration="1000"
@@ -35,7 +35,7 @@ const AboutUs = () => {
             client.
           </p>
 
-          <div className="flex gap-20 items-center mt-10">
+          <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center mt-10">
             <div className="flex gap-4 items-center">
               <Image
                 src="https://nexlent.com/images/icons/medal.svg"
@@ -83,6 +83,7 @@ const AboutUs = () => {
           data-aos="fade-left"
           data-aos-easing="ease-in-sine"
           data-aos-duration="1000"
+          className="hidden lg:block"
         >
           <Image
             src={img.src}

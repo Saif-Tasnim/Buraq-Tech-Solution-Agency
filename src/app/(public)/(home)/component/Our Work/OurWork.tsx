@@ -10,7 +10,7 @@ const OurWork = () => {
     <div className="my-20 mx-6 overflow-hidden">
       <SectionName first="How We" second="Work" />
 
-      <div className="my-28 mx-6 flex justify-between items-start">
+      <div className="my-28 md:mx-6 flex justify-between items-start">
         <div className="hidden lg:block">
           <Image
             src={img.src}
